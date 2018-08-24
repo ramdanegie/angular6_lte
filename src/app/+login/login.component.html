@@ -1,0 +1,55 @@
+<div class="hold-transition login-page">
+  <div class="login-box">
+    <div class="login-logo">
+      <a routerLink="/"><b>RSAB</b> Harapan Kita</a>
+    </div>
+    <!-- /.login-logo -->
+    <div class="login-box-body">
+      <h4 class="login-box-msg">Silahkan Login</h4>
+
+      <form (submit)="loginUser($event)" >
+        <div class="form-group has-feedback">
+          <input type="text" class="form-control" placeholder="Nama Pengguna" id="namauser">
+          <span class="glyphicon glyphicon-user form-control-feedback"></span>
+        </div>
+        <div class="form-group has-feedback">
+          <input type="password" class="form-control" placeholder="Kata Sandi" id="password">
+          <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="checkbox icheck">
+              <label>
+            <input type="checkbox" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0; padding: 0; background: rgb(255, 255, 255); border: 0; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0; padding: 0; background: rgb(255, 255, 255); border: 0; opacity: 0;"></ins> Ingatkan saya
+              </label>
+            </div>
+          </div>
+          <!-- /.col -->
+          <div class="col-xs-12">
+            <button type="submit" class="btn btn-success btn-block btn-flat">Masuk</button>
+          
+          </div>
+          <!-- /.col -->
+        </div>
+      </form>
+
+      <!-- <div class="social-auth-links text-center">
+        <p>- OR -</p>
+        <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in using
+          Facebook</a>
+        <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Sign in using
+          Google+</a>
+      </div> -->
+      <!-- /.social-auth-links -->
+
+      <!-- <a href="#">I forgot my password</a><br>
+      <a routerLink="/register" class="text-center">Register a new membership</a> -->
+
+    </div>
+    <!-- /.login-box-body -->
+  </div>
+</div>
+<link rel="stylesheet" type="text/css" href="/node_modules/primeicons/primeicons.css" />
+<link rel="stylesheet" type="text/css" href="/node_modules/primeng/resources/themes/nova-light/theme.css" />
+<link rel="stylesheet" type="text/css" href="/node_modules/primeng/resources/primeng.min.css" />
+  
